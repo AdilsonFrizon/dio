@@ -3,7 +3,7 @@ const adilson = {
     idade: 31,
     naturalidade: 'Foz do Iguaçu',
     descrever: function() {
-        console.log('Meu nome é ${this.nome} e minha idade é ${this.idade}'); // pega as chaves de dentro do objeto com ${}
+        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`); // pega as chaves de dentro do objeto com ${}, deve estar entre crases
     }
 }
 
