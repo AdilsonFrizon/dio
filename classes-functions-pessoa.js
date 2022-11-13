@@ -24,7 +24,7 @@ function compararIdade(p1, p2) {
     }
 }
 
-const adilsop1 = new Pessoa('Adilson Frizon', 31, 1.74,  'Foz do Iguaçu');
+const adilson = new Pessoa('Adilson Frizon', 31, 1.74,  'Foz do Iguaçu');
 const renata = new Pessoa('Renata de Lucena Marconatto', 30, 1.65, 'Rio de Janeiro');
 
 compararIdade(adilson, renata);
